@@ -1,0 +1,31 @@
+.axis {
+    opacity: 0.3;
+  }
+.axis:hover {
+    opacity: 1;
+}
+
+#diagram{
+  margin: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+#dropDown{
+  margin: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+#colorLabel{
+  margin: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.btn{
+  margin: 50px;
+}

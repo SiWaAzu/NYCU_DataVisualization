@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iris Plot</title>
+        <link rel="stylesheet" href="310551067.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        
+        <div id="ViewChoice">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle btn-success" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Iris Kind
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="all" href="#">All</a></li>
+                  <li><a class="dropdown-item" id="setosa" href="#">Setosa</a></li>
+                  <li><a class="dropdown-item" id="versicolor" href="#">Versicolor</a></li>
+                  <li><a class="dropdown-item" id="virginica" href="#">Virginica</a></li>
+                </ul>
+                <button class="btn btn-secondary dropdown-toggle btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    X-Axis
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" id="xsl" href="#">Sepal Length</a></li>
+                    <li><a class="dropdown-item" id="xsw" href="#">Sepal Width</a></li>
+                    <li><a class="dropdown-item" id="xpl" href="#">Petal Length</a></li>
+                    <li><a class="dropdown-item" id="xpw" href="#">Petal Width</a></li>
+                  </ul>
+                  <button class="btn btn-secondary dropdown-toggle btn-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Y-Axis
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" id="ysl" href="#">Sepal Length</a></li>
+                    <li><a class="dropdown-item" id="ysw" href="#">Sepal Width</a></li>
+                    <li><a class="dropdown-item" id="ypl" href="#">Petal Length</a></li>
+                    <li><a class="dropdown-item" id="ypw" href="#">Petal Width</a></li>
+                  </ul>
+              </div>
+        </div>
+    
+        <div id="diagram">
+        </div>
+        <script src="310551067.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,65 @@
+#overallView{
+    display: flex;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#genreb{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+#inputGenre{
+    display: flex;
+    justify-content: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 20px;
+}
+
+#inputPlace{
+    padding-right: 20px;
+}
+
+#inputPlaceM{
+    padding-right: 20px;
+}
+
+#songView{
+    display: flex;
+    
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 500px;
+}
+
+#songInfoShow{
+    display: flex;
+    
+    padding-left: 50px;
+}
+
+#inputSong{
+    display: flex;
+    justify-content: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+
+
+#artistName{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#songName{
+    padding-top: 100px;
+}

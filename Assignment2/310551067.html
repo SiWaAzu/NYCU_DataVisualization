@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vis HW2: Parallel coordinates chart</title>
+        <link rel="stylesheet" href="310551067.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <div id = diagram></div>
+        <div><svg id = colorLabel width ='600' height = '20'></svg></div>
+        <div id = dropDown>
+            <button id="axis1" class="btn btn-secondary dropdown-toggle btn-success" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              sepal length
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" id="sl1" href="#">Sepal Length</a></li>
+                <li><a class="dropdown-item" id="sw1" href="#">Sepal Width</a></li>
+                <li><a class="dropdown-item" id="pl1" href="#">Petal Length</a></li>
+                <li><a class="dropdown-item" id="pw1" href="#">Petal Width</a></li>
+              </ul>
+              <button id="axis2" class="btn btn-secondary dropdown-toggle btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                sepal width
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="sl2" href="#">Sepal Length</a></li>
+                  <li><a class="dropdown-item" id="sw2" href="#">Sepal Width</a></li>
+                  <li><a class="dropdown-item" id="pl2" href="#">Petal Length</a></li>
+                  <li><a class="dropdown-item" id="pw2" href="#">Petal Width</a></li>
+                </ul>
+                <button id="axis3" class="btn btn-secondary dropdown-toggle btn-info" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  petal length
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="sl3" href="#">Sepal Length</a></li>
+                  <li><a class="dropdown-item" id="sw3" href="#">Sepal Width</a></li>
+                  <li><a class="dropdown-item" id="pl3" href="#">Petal Length</a></li>
+                  <li><a class="dropdown-item" id="pw3" href="#">Petal Width</a></li>
+                </ul>
+                <button id="axis4" class="btn btn-secondary dropdown-toggle btn-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  petal width
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="sl4" href="#">Sepal Length</a></li>
+                  <li><a class="dropdown-item" id="sw4" href="#">Sepal Width</a></li>
+                  <li><a class="dropdown-item" id="pl4" href="#">Petal Length</a></li>
+                  <li><a class="dropdown-item" id="pw4" href="#">Petal Width</a></li>
+                </ul>
+        </div>
+        <script src="310551067.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>

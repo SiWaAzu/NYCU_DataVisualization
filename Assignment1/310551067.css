@@ -1,0 +1,15 @@
+#ViewChoice{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#diagram{
+    margin: auto;
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
